@@ -1,6 +1,10 @@
 :root {
-  --bg-primary: #28293E;
-  --fc-primary: #FFFFFF;
+  --hue: 290;
+
+  --bg-primary: hsl(var(--hue), 22%, 20%);
+
+  --fc-primary: hsl(var(--hue), 0%, 100%);
+  --fc-secondary: hsl(var(--hue), 50%, 80%);
 }
 
 
