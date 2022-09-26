@@ -3,7 +3,7 @@
 </h1>
 
 Quinto projeto desenvolvido durante o curso Explorer da <a href="https://www.rocketseat.com.br">Rocketseat</a>.  
-Trata-se de um site simples construído em HTML e CSS, que foi utilizado para apresentar o CSS Grid, variáveis CSS, mais prática sobre responsividade, animações e transições CSS.  
+Trata-se de um site simples construído em HTML e CSS, que foi utilizado para apresentar o CSS Grid, variáveis CSS, mais prática sobre responsividade e mobile-first, animações e transições CSS.  
 Conceitos para deixar as páginas mais bonitas e dinâmicas, melhorando a experiência do usuário.
 
 ## Índice
@@ -29,5 +29,5 @@ Conceitos para deixar as páginas mais bonitas e dinâmicas, melhorando a experi
 ### Mobile
 
 <div align="center">
- <img src="#">
+ <img src="https://cdn.discordapp.com/attachments/1004504690974801981/1024052269156679710/grid-mobile.png">
 </div>
