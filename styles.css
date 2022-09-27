@@ -51,6 +51,13 @@ main {
   height: 26rem;
   object-fit: cover;
   border-radius: 6px;
+
+  transition: transform 0.3s ease-in-out, opacity 0.3s;
+}
+
+.card img:hover {
+  transform: scale(1.03);
+  opacity: 0.8;
 }
 
 .card h2 {
@@ -77,4 +84,38 @@ main {
   padding: 1rem;
   height: 2.38rem;
   width: fit-content;
+}
+
+/* at-rules */
+
+@keyframes topdown {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header { 
+  animation: topdown 0.7s 
+}
+
+@keyframes downtop {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main {
+  animation: downtop 0.7s 0.35s backwards;
 }
