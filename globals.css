@@ -5,6 +5,10 @@
 
   --fc-primary: hsl(var(--hue), 0%, 100%);
   --fc-secondary: hsl(var(--hue), 50%, 80%);
+  --fc-tertiary: hsl(var(--hue), 100%, 11%);
+
+  --fs-body: 1rem;
+  --fs-header: 2.5rem;
 }
 
 

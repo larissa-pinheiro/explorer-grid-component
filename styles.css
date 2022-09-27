@@ -1,0 +1,80 @@
+body {
+  background-color: var(--bg-primary);
+
+  font-size: var(--fs-body);
+}
+
+.page {
+  max-width: 20.75rem;
+
+  margin: 0 auto;
+  margin-bottom: 6.38rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  display: grid;
+  gap: 1.25rem;
+
+  text-align: center;
+
+  margin: 5.75rem 0 5rem;
+}
+
+header p {
+  color: var(--fc-secondary);
+
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  line-height: 2rem;
+}
+
+header h1 {
+  font-size: var(--fs-header);
+  line-height: 3rem;
+}
+
+main {
+  display: grid;
+  gap: 2rem;
+}
+
+.card {
+  position: relative; /* torna a posição do elemento absoluto relativo a ele, no caso o h2 */
+}
+
+.card img {
+  height: 26rem;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.card h2 {
+  font-size: var(--fs-header);
+
+  position: absolute;
+  bottom: 3.25rem;
+  left: 1.75rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.44rem;
+}
+
+.card h2 span {
+  background-color: var(--fc-primary);
+  color: var(--fc-tertiary);
+  font-weight: 400;
+  line-height: 2rem;
+
+  display: inline-flex;
+  align-items: center;
+  border-radius: 1.25rem;
+  padding: 1rem;
+  height: 2.38rem;
+  width: fit-content;
+}
