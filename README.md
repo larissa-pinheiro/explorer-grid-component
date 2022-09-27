@@ -29,5 +29,5 @@ Conceitos para deixar as páginas mais bonitas e dinâmicas, melhorando a experi
 ### Mobile
 
 <div align="center">
- <img src="https://cdn.discordapp.com/attachments/1004504690974801981/1024052269156679710/grid-mobile.png">
+ <img src="https://cdn.discordapp.com/attachments/1004504690974801981/1024291870257447042/grid-mobile2.png">
 </div>
