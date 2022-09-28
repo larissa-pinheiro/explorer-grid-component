@@ -6,7 +6,7 @@ body {
 
 .page {
   max-width: clamp(20.75rem, 18.75rem + 60vw, 73.13rem);
-  padding: 0 3.75rem;
+  padding: 0 3rem;
 
   margin: 0 auto;
   margin-bottom: 6.38rem;
