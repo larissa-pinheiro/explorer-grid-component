@@ -23,7 +23,7 @@ Conceitos para deixar as páginas mais bonitas e dinâmicas, melhorando a experi
 ### Desktop
 
 <div align="center">
- <img src="#">
+ <img src="https://cdn.discordapp.com/attachments/1004504690974801981/1024710562162163792/grid-desktop2.png">
 </div>
 
 ### Mobile
