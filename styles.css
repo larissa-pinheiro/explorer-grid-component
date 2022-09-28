@@ -5,7 +5,8 @@ body {
 }
 
 .page {
-  max-width: 20.75rem;
+  max-width: clamp(20.75rem, 18.75rem + 60vw, 73.13rem);
+  padding: 0 3.75rem;
 
   margin: 0 auto;
   margin-bottom: 6.38rem;
@@ -62,7 +63,7 @@ main {
 }
 
 .card h2 {
-  font-size: var(--fs-header);
+  font-size: var(--fs-header-sm);
 
   position: absolute;
   bottom: 3.25rem;
@@ -122,19 +123,12 @@ main {
 }
 
 @media screen and (min-width: 600px) {
-  .page {
-    max-width: 73.13rem;
-    padding: 0 3.75rem;
-  }
-
   main {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media screen and (min-width: 800px) {
-  
-
   main {
     grid-template-columns: 4fr 2fr 4fr;
     grid-template-areas: "A B B"

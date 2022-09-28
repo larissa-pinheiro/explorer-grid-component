@@ -8,7 +8,8 @@
   --fc-tertiary: hsl(var(--hue), 100%, 11%);
 
   --fs-body: 1rem;
-  --fs-header: 2.5rem;
+  --fs-header: clamp(2.5rem, 1rem + 5vw, 2.8rem);
+  --fs-header-sm: clamp(2rem, 0.5rem + 3vw, 2.5rem);
 }
 
 
