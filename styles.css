@@ -52,12 +52,13 @@ main {
   object-fit: cover;
   border-radius: 5px;
 
-  transition: transform 0.3s ease-in-out, opacity 0.3s;
+  filter: brightness(0.8) saturate(1.2) contrast(0.9);
+  transition: transform 0.3s ease-in-out, filter 0.5s;
 }
 
 .card img:hover {
   transform: scale(1.03);
-  opacity: 0.8;
+  filter: brightness(1);
 }
 
 .card h2 {
