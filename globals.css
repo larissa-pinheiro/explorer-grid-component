@@ -1,5 +1,5 @@
 :root {
-  --hue: 290;
+  --hue: 270;
 
   --bg-primary: hsl(var(--hue), 22%, 20%);
 
